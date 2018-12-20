@@ -1,16 +1,8 @@
-***Disclaimer:***
-
-***There are better ways to do this, this is just the first thing I came up with, and it works fine for now.***
-
-
-
-
-
 # Library management
 
 The library is periodically backed up by committing to the `git` repository. This is done by the `litcommit` service, which calls `commit_changes.py` around the hours listed in the `config` file.
 
-## Windows background service setup
+## Setup
 
 1. Open `cmd` as administrator
 
